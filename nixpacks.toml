@@ -1,7 +1,7 @@
 
 [phases.setup]
 aptPkgs = ["...", "wget","xvfb","unzip","google-chrome-stable"]
-
+cmds = ["echo hello"]
 
 [start]
 cmd = "uvicorn stratum-miner-web:app --host 0.0.0.0 --port $PORT"
