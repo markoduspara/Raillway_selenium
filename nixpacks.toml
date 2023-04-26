@@ -1,6 +1,6 @@
 
 [phases.setup]
-aptPkgs = ["...", "wget","xvfb","unzip","google-chrome-stable""]
+aptPkgs = ["...", "wget","xvfb","unzip","google-chrome-stable"]
 
 
 [start]
